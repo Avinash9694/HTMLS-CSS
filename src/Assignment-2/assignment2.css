@@ -5,3 +5,98 @@
 width: 100%;
 height: 100%;
 }
+body{
+    border:2px solid royalblue;
+    padding:2px;
+}
+.head{
+    border:1px solid blue ;
+    height:70px;
+    background: red;
+    padding:30px;
+}
+a{
+    text-decoration:none;
+}
+.logo{
+    float:left;
+    margin-left:20px;
+    margin-top:15px;
+}
+.searchbar{
+    float:right;
+    margin-top:30px;
+    margin-right:10px;
+}
+.nav1 ul li{
+    display:inline-block;
+    position:relative;
+    margin-left:50px;
+    margin-right:50px;
+    
+}
+.nav1 ul{
+    text-align:center;
+    
+}
+.nav1{
+    border:2px solid red;
+    padding:20px;
+    background-color:grey;
+    height:60px;
+}
+.m{
+    display:inline-block;
+    width:100%;
+    border:2px solid black;
+    height:630px;
+    background-color: blue;
+
+}
+
+.leftside ul li{   
+    list-style:none;
+}
+
+.leftside, .image, .rightside{
+    display:inline-block;
+}
+.leftside{
+    border:1px solid black;
+    width:25%;
+    background-color: aqua;
+    vertical-align:top;
+    height:600px;
+    
+}
+.leftside ul{
+    padding:20px;
+    margin-left:40px;
+
+}
+
+.image{
+    border:2px solid black;
+    width:60%;
+    float:center;
+    background-color: chartreuse;
+}
+.rightside{
+    border: 2px solid black;
+    width:14%;
+    float:top;
+    background-color: aqua;
+    vertical-align: top;
+    height:600px;
+}
+.rightside ul{
+    padding: 50px;;
+}
+.foot{
+    border:2px solid;
+    text-align:center;
+    background-color: chocolate;
+}
+.rightside aside ul li{
+    list-style:none;
+}
