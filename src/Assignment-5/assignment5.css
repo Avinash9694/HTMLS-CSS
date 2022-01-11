@@ -1,32 +1,37 @@
 /* Our CSS file. */
 
-
-.container, .content {
+#container{
 width: 100%;
 height: 100%;
 }
-
-.box-1,.box-2{
+body{
+    background-color: grey;
+}
+.card{
     display:flex;
     flex-direction: row;
     height:40%;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .row-1{
     background-color: chartreuse;
     width:20%;
+    height:500px;
 }
 .row-2{
     width:30%;
-    text-align: center;
+    text-align: left;
     padding:60px;
+    background-color: cornsilk;   
 }
 h1{
-    font-size: 200%;
+    font-size: 80px;
+    margin-left: 80px;
 }
 p{
     font-size: 130%;
+    margin-left: 80px;
 }
 .btn{
     background-color: chartreuse;
@@ -34,4 +39,22 @@ p{
     width:200px;
     border-radius: 50px;
     font-size: 100%;
+    margin-left: 80px;   
+}
+.main-body{
+    background-color: grey;
+}
+#image-1{
+    position: relative;
+    top:-50px;
+    left:-50px;
+    width:550px;
+    height:500px;
+}
+#image-2{
+    position: relative;
+    left:-50px;
+    width:550px;
+    height:400px;
+    top:80px;
 }
